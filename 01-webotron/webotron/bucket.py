@@ -5,7 +5,7 @@ import mimetypes
 from functools import reduce
 
 from hashlib import md5
-import util
+from webotron import util
 
 import boto3
 from botocore.exceptions import ClientError
